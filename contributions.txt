@@ -1,0 +1,11 @@
+MIPS Project Contributions
+Group Number: 20
+
+Mehdi Elaoufir: ee23f
+Daniel Romanov: dr23y
+Malachi Davey mld24d
+
+
+Program 1: Mehdi
+Program 2: Daniel
+Program 3: Malachi
