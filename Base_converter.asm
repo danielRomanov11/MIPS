@@ -21,7 +21,7 @@ outer_loop:
         syscall
         move    $t0, $v0           
 
-        # ---- Print binary ----
+        # Print binary 
         li      $v0, 4
         la      $a0, pBin
         syscall
@@ -75,7 +75,7 @@ print_bin_zero:
         la      $a0, nl
         syscall
 
-        # ---- Print hex ----
+        # Print hex 
 print_hex:
         li      $v0, 4
         la      $a0, pHex
@@ -88,7 +88,7 @@ print_hex:
 
         beq     $t0, $zero, hex_zero
 
-        # Find highest non-zero nibble (start at nibble 7 for 32-bit: bits 28..31)
+        # Find highest non-zero nibble 
         li      $t1, 7              
 find_high_nib:
         bltz    $t1, hex_zero       
