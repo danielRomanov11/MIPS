@@ -38,7 +38,7 @@ read_input:
     move $a0, $t3
     syscall
 
-    # newline (optional)
+    # newline
     li   $v0, 4
     la   $a0, newline
     syscall
