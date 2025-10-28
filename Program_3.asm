@@ -1,5 +1,3 @@
-# Function 3 – Decimal (0..15) -> Hexadecimal (single hex digit)
-
 .data
 prompt:      .asciiz "Enter an integer (0-15): "
 err:         .asciiz "Invalid input. Try again.\n"
